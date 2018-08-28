@@ -1,0 +1,50 @@
+firmament:
+1000, 17100 :
+I0828 13:08:16.163769   26807 poseidon.go:55] Scheduler returned 0 deltas
+I0828 13:08:27.944695   26807 poseidon.go:52] Current schedule time1.780628912s
+I0828 13:08:27.944850   26807 poseidon.go:53] Cumulative schedule time1.780628912s
+I0828 13:08:27.944857   26807 poseidon.go:55] Scheduler returned 9687 deltas
+I0828 13:08:47.092366   26807 poseidon.go:52] Current schedule time1.454543146s
+I0828 13:08:47.092426   26807 poseidon.go:53] Cumulative schedule time3.235172058s
+I0828 13:08:47.092432   26807 poseidon.go:55] Scheduler returned 7413 deltas
+
+1000, 100 pod anti affinity:
+828 13:09:02.507817   26807 poseidon.go:55] Scheduler returned 0 deltas
+I0828 13:09:17.618505   26807 poseidon.go:52] Current schedule time5.110476773s
+I0828 13:09:17.618533   26807 poseidon.go:53] Cumulative schedule time8.345648831s
+I0828 13:09:17.618539   26807 poseidon.go:55] Scheduler returned 37 deltas
+I0828 13:09:32.622051   26807 poseidon.go:52] Current schedule time5.003287685s
+I0828 13:09:32.622083   26807 poseidon.go:53] Cumulative schedule time13.348936516s
+I0828 13:09:32.622090   26807 poseidon.go:55] Scheduler returned 45 deltas
+
+1000, 1800 pods with symmetry from some other namesapce.
+28 13:09:54.650236   26807 poseidon.go:55] Scheduler returned 0 deltas
+I0828 13:10:05.454649   26807 poseidon.go:52] Current schedule time804.181901ms
+I0828 13:10:05.454740   26807 poseidon.go:53] Cumulative schedule time16.178771665s
+I0828 13:10:05.454746   26807 poseidon.go:55] Scheduler returned 1781 deltas
+I0828 13:10:16.206853   26807 poseidon.go:52] Current schedule time618.482644ms
+I0828 13:10:16.206922   26807 poseidon.go:53] Cumulative schedule time16.797254309s
+I0828 13:10:16.206931   26807 poseidon.go:55] Scheduler returned 19 deltas
+
+Default:
+1000, 17100 :
+I0828 13:34:07.019666       1 scheduler.go:451] ScheduleAlgoTime 3.504833ms Start:2018-08-28 13:34:07.016153978 +0000 UTC m=+196.763795347 End:2018-08-28 13:34:07.019658861 +0000 UTC m=+196.767300180
+I0828 13:34:07.019704       1 scheduler.go:454] Total Schedule Algo cumulative time:1m6.923446404s for 17099
+I0828 13:34:07.023303       1 scheduler.go:451] ScheduleAlgoTime 3.461445ms Start:2018-08-28 13:34:07.019835108 +0000 UTC m=+196.767476480 End:2018-08-28 13:34:07.023296606 +0000 UTC m=+196.770937925
+I0828 13:34:07.023338       1 scheduler.go:454] Total Schedule Algo cumulative time:1m6.926907849s for 17100
+
+1000, 100 pod anti affinity:
+I0828 13:38:24.858707       1 scheduler.go:454] Total Schedule Algo cumulative time:5m9.179102523s for 17199
+I0828 13:38:26.861207       1 trace.go:76] Trace[181068373]: "Scheduling default/nginx-pod-anti-affinity-pod-0-1-mvg8g" (started: 2018-08-28 13:38:24.859315495 +0000 UTC m=+454.606956830) (total time: 2.001860679s):
+Trace[181068373]: [1.997276396s] [1.986796624s] Prioritizing
+I0828 13:38:26.861236       1 scheduler.go:451] ScheduleAlgoTime 2.001927775s Start:2018-08-28 13:38:24.859304583 +0000 UTC m=+454.606945924 End:2018-08-28 13:38:26.861232382 +0000 UTC m=+456.608873699
+I0828 13:38:26.861249       1 scheduler.go:454] Total Schedule Algo cumulative time:5m11.181030298s for 17200
+
+1000, 1800 pods with symmetry from some other namesapce.
+I0828 13:39:36.459530       1 scheduler.go:454] Total Schedule Algo cumulative time:5m18.839783926s for 18999
+I0828 13:39:36.464612       1 scheduler.go:451] ScheduleAlgoTime 4.902132ms Start:2018-08-28 13:39:36.459700056 +0000 UTC m=+526.207341398 End:2018-08-28 13:39:36.464602198 +0000 UTC m=+526.212243530
+I0828 13:39:36.464669       1 scheduler.go:454] Total Schedule Algo cumulative time:5m18.844686058s for 19000
+
+
+
+
