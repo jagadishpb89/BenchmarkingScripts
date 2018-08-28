@@ -7,6 +7,12 @@ I0828 11:16:15.673318   26424 poseidon.go:52] Current schedule time820.310026ms
 I0828 11:16:15.673357   26424 poseidon.go:53] Cumulative schedule time2.095607809s
 I0828 11:16:15.673363   26424 poseidon.go:55] Scheduler returned 831 deltas
 
+If all 10260 pods submitted before schedule call,
+I0828 11:35:15.548630    3656 poseidon.go:52] Current schedule time799.152847ms
+I0828 11:35:15.548684    3656 poseidon.go:53] Cumulative schedule time799.152847ms
+I0828 11:35:15.548690    3656 poseidon.go:55] Scheduler returned 10260 deltas
+
+
 600, 100 pod anti affinity:
 I0828 11:16:25.675906   26424 poseidon.go:55] Scheduler returned 0 deltas
 I0828 11:16:35.677594   26424 poseidon.go:55] Scheduler returned 0 deltas
