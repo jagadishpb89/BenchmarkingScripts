@@ -1,0 +1,40 @@
+Firmament:
+600, 10260 :
+I0828 11:15:57.318588   26424 poseidon.go:52] Current schedule time1.275297783s
+I0828 11:15:57.318625   26424 poseidon.go:53] Cumulative schedule time1.275297783s
+I0828 11:15:57.318632   26424 poseidon.go:55] Scheduler returned 9429 deltas
+I0828 11:16:15.673318   26424 poseidon.go:52] Current schedule time820.310026ms
+I0828 11:16:15.673357   26424 poseidon.go:53] Cumulative schedule time2.095607809s
+I0828 11:16:15.673363   26424 poseidon.go:55] Scheduler returned 831 deltas
+
+600, 100 pod anti affinity:
+I0828 11:16:25.675906   26424 poseidon.go:55] Scheduler returned 0 deltas
+I0828 11:16:35.677594   26424 poseidon.go:55] Scheduler returned 0 deltas
+I0828 11:16:45.679285   26424 poseidon.go:55] Scheduler returned 0 deltas
+I0828 11:17:00.709061   26424 poseidon.go:52] Current schedule time5.029453114s
+I0828 11:17:00.709139   26424 poseidon.go:53] Cumulative schedule time7.125060923s
+I0828 11:17:00.709160   26424 poseidon.go:55] Scheduler returned 64 deltas
+I0828 11:17:13.180928   26424 poseidon.go:52] Current schedule time2.471500596s
+I0828 11:17:13.180958   26424 poseidon.go:53] Cumulative schedule time9.596561519s
+I0828 11:17:13.180975   26424 poseidon.go:55] Scheduler returned 36 deltas
+
+600, 1040 pods with symmetry from some other namesapce.
+I0828 11:18:03.190487   26424 poseidon.go:55] Scheduler returned 0 deltas
+I0828 11:18:13.716147   26424 poseidon.go:52] Current schedule time525.442263ms
+I0828 11:18:13.716209   26424 poseidon.go:53] Cumulative schedule time10.122003782s
+I0828 11:18:13.716218   26424 poseidon.go:55] Scheduler returned 1040 deltas
+
+Default:
+
+600, 10260 :
+I0828 11:22:26.823827       1 scheduler.go:451] ScheduleAlgoTime 4.738174ms Start:2018-08-28 11:22:26.81907677 +0000 UTC m=+49.822975681 End:2018-08-28 11:22:26.82381498 +0000 UTC m=+49.827713855
+I0828 11:22:26.823891       1 scheduler.go:454] Total Schedule Algo cumulative time:30.245428675s for 10260
+
+600, 100 pod anti affinity:
+I0828 11:23:47.515333       1 scheduler.go:451] ScheduleAlgoTime 737.524494ms Start:2018-08-28 11:23:46.777805426 +0000 UTC m=+129.781704329 End:2018-08-28 11:23:47.515329946 +0000 UTC m=+130.519228823
+I0828 11:23:47.515353       1 scheduler.go:454] Total Schedule Algo cumulative time:1m36.485603437s for 1036
+
+600, 1040 pods with symmetry from some other namesapce.
+I0828 11:27:13.805977       1 scheduler.go:451] ScheduleAlgoTime 2.077265ms Start:2018-08-28 11:27:13.803890726 +0000 UTC m=+336.807789615 End:2018-08-28 11:27:13.805968008 +0000 UTC m=+336.809866880
+I0828 11:27:13.806017       1 scheduler.go:454] Total Schedule Algo cumulative time:1m39.940928809s for 11400
+
