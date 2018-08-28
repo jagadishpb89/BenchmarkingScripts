@@ -1,0 +1,3 @@
+I0828 12:44:02.794546 21267 firmament_scheduler_service.cc:676] Firmament scheduler starting ...
+I0828 12:44:02.809405508   21267 server_builder.cc:247]      Synchronous server. Num CQs: 1, Min pollers: 1, Max Pollers: 2147483647, CQ timeout (msec): 1000
+I0828 12:44:02.812480 21267 firmament_scheduler_service.cc:682] Firmament scheduler listening on 0.0.0.0:9090
