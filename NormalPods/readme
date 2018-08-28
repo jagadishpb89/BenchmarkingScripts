@@ -1,0 +1,24 @@
+nodes: 400
+max pods that can be safely deployed: 7600
+
+1. Deploy 90% of pods with 5 cpu/mem combination
+2. Deploy 100 pods having pod anti affinity with labelA
+3. Deploy remaining % of pods having symmetry with anti affinity pods with different namespace for covering all cases.
+4. Only measure normal pods scheduling time.
+
+
+Firmament:
+400, 6840 :
+I0828 10:28:25.914271    9312 poseidon.go:52] Current schedule time715.371073ms
+I0828 10:28:25.914305    9312 poseidon.go:53] Cumulative schedule time715.371073ms
+I0828 10:28:25.914312    9312 poseidon.go:55] Scheduler returned 6840 deltas
+
+400, 100 pod anti affinity:
+I0828 10:34:15.244266    9312 poseidon.go:52] Current schedule time4.442408862s
+I0828 10:34:15.244317    9312 poseidon.go:53] Cumulative schedule time5.157779935s
+I0828 10:34:15.244324    9312 poseidon.go:55] Scheduler returned 100 deltas
+
+400, 760 pods with symmetry from some other namesapce.
+I0828 10:35:05.634804    9312 poseidon.go:52] Current schedule time384.820978ms
+I0828 10:35:05.634841    9312 poseidon.go:53] Cumulative schedule time5.542600913s
+I0828 10:35:05.634846    9312 poseidon.go:55] Scheduler returned 760 deltas

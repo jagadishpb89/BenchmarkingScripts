@@ -1,0 +1,29 @@
+apiVersion: extensions/v1beta1
+kind: ReplicaSet
+metadata:
+  name: nginx-pod-0-1
+  namespace: kube-public
+spec:
+  replicas: 760
+  selector:
+    matchLabels:
+      labelc3: labelc4
+  template:
+    metadata:
+      name: nginx-replica-set
+      labels:
+        labelc3: labelc4
+    spec:
+      schedulerName: poseidon
+      containers:
+      - name: nginx
+        image: "nginx:1.11.1-alpine"
+        ports:
+        - containerPort: 80
+        resources:
+          requests:
+            memory: "10Ki"
+            cpu: "5m"
+          limits:
+            memory: "20Ki"
+            cpu: "10m"

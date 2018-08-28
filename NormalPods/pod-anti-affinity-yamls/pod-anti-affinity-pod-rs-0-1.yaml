@@ -1,0 +1,38 @@
+apiVersion: extensions/v1beta1
+kind: ReplicaSet
+metadata:
+  name: nginx-pod-anti-affinity-pod-0-1
+spec:
+  replicas: 100
+  selector:
+    matchLabels:
+      labeld1: labeld2
+  template:
+    metadata:
+      name: nginx-replica-set
+      labels:
+        labeld1: labeld2
+    spec:
+      affinity:
+        podAntiAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+          - labelSelector:
+              matchExpressions:
+              - key: labelc3
+                operator: In
+                values:
+                - labelc4
+            topologyKey: kubernetes.io/hostname
+      schedulerName: poseidon
+      containers:
+      - name: nginx
+        image: "nginx:1.11.1-alpine"
+        ports:
+        - containerPort: 80
+        resources:
+          requests:
+            memory: "6Mi"
+            cpu: "3m"
+          limits:
+            memory: "12Mi"
+            cpu: "6m"
