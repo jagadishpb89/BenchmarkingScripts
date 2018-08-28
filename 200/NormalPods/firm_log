@@ -1,0 +1,14 @@
+I0828 13:48:11.983059  6842 firmament_scheduler_service.cc:676] Firmament scheduler starting ...
+rm: cannot remove '/tmp/firmament-debug/*': No such file or directory
+I0828 13:48:11.995150605    6842 server_builder.cc:247]      Synchronous server. Num CQs: 1, Min pollers: 1, Max Pollers: 2147483647, CQ timeout (msec): 1000
+I0828 13:48:11.998347  6842 firmament_scheduler_service.cc:682] Firmament scheduler listening on 0.0.0.0:9090
+I0828 13:50:19.343448  7625 solver_dispatcher.cc:182] Writing flow graph debug info into /tmp/firmament-debug/debug_0.dm
+I0828 13:50:19.579640  7625 utils.cc:341] External execution of command: ./build/third_party/cs2/src/cs2/cs2.exe 
+I0828 13:50:20.027698  7625 firmament_scheduler_service.cc:180] Got 3420 scheduling deltas
+I0828 13:50:46.487128  7630 firmament_scheduler_service.cc:180] Got 56 scheduling deltas
+I0828 13:50:56.770426  7905 solver_dispatcher.cc:182] Writing flow graph debug info into /tmp/firmament-debug/debug_1.dm
+I0828 13:50:56.991019  7905 utils.cc:341] External execution of command: ./build/third_party/cs2/src/cs2/cs2.exe 
+I0828 13:51:00.702770  7905 firmament_scheduler_service.cc:180] Got 48 scheduling deltas
+I0828 13:52:30.944017  7905 solver_dispatcher.cc:182] Writing flow graph debug info into /tmp/firmament-debug/debug_2.dm
+I0828 13:52:31.136400  7905 utils.cc:341] External execution of command: ./build/third_party/cs2/src/cs2/cs2.exe 
+I0828 13:52:31.541313  7905 firmament_scheduler_service.cc:180] Got 4 scheduling deltas
