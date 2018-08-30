@@ -1,21 +1,18 @@
 firmament:
 200, 3420 :
-I0828 13:50:20.032342    7348 poseidon.go:52] Current schedule time1.114054399s
-I0828 13:50:20.032382    7348 poseidon.go:53] Cumulative schedule time1.114054399s
-I0828 13:50:20.032388    7348 poseidon.go:55] Scheduler returned 3420 deltas
+I0830 10:04:01.083486    1824 poseidon.go:52] Current schedule time347.957514ms
+I0830 10:04:01.083534    1824 poseidon.go:53] Cumulative schedule time347.957514ms
+I0830 10:04:01.083541    1824 poseidon.go:55] Scheduler returned 3420 deltas
+
 200, 100 pod anti affinity:
+I0830 10:04:24.149729    1824 poseidon.go:52] Current schedule time1.639475125s
+I0830 10:04:24.149765    1824 poseidon.go:53] Cumulative schedule time1.987432639s
+I0830 10:04:24.149821    1824 poseidon.go:55] Scheduler returned 100 deltas
 
-I0828 13:50:31.455792    7348 poseidon.go:55] Scheduler returned 0 deltas
-I0828 13:50:46.487587    7348 poseidon.go:52] Current schedule time5.031642059s
-I0828 13:50:46.487620    7348 poseidon.go:53] Cumulative schedule time6.145696458s
-I0828 13:50:46.487626    7348 poseidon.go:55] Scheduler returned 56 deltas
-I0828 13:51:00.703155    7348 poseidon.go:52] Current schedule time4.215279553s
-I0828 13:51:00.703188    7348 poseidon.go:53] Cumulative schedule time10.360976011s
-I0828 13:51:00.703194    7348 poseidon.go:55] Scheduler returned 48 deltas
-I0828 13:51:10.704168    7348 poseidon.go:55] Scheduler returned 0 deltas
-
-Did not work as expected...
-
+200, 280 symmetry pods:
+I0830 10:05:04.294175    1824 poseidon.go:52] Current schedule time137.490804ms
+I0830 10:05:04.294218    1824 poseidon.go:53] Cumulative schedule time2.124923443s
+I0830 10:05:04.294224    1824 poseidon.go:55] Scheduler returned 280 deltas
 
 Default:
 
