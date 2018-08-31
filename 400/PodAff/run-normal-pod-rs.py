@@ -18,7 +18,7 @@ else:
      filedata = filedata.replace("cpulim", str(int(sys.argv[5])) + "m")
      filedata = filedata.replace("memlim", str(int(sys.argv[6])) + "Ki")
      filedata = filedata.replace("nginx-pod", "nginx-pod-" + str(index) + "-" + str(int(sys.argv[7])))
-     filedata = filedata.replace("replicas_string", sys.argv[2])
+     filedata = filedata.replace("replicas_string", str(int(sys.argv[2])))
      newfile = "normal-pods-rs-" + str(index) + "-" + str(int(sys.argv[7])) + ".yaml"
      f_new = open("normal-pods-yamls/" + newfile, "w")
      f_new.write(filedata)

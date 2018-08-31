@@ -23,7 +23,7 @@ else:
      f_new = open("pod-affinity-yamls/" + newfile, "w")
      f_new.write(filedata)
      f_new.close()
-     cmd = "kubectl create -f " + "pod-affinity-yamls/" + newfile
+     cmd = "kubectl create -f " + "pod-affinity-yamls/" + newfile + " &"
      print cmd
      os.system(cmd)
 #     print commands.getoutput(cmd)
