@@ -1,0 +1,74 @@
+Firmament:
+200 pods on 200 nodes using nodeSelector:
+I0831 12:45:01.104351   13313 poseidon.go:52] Current schedule time206.623258ms
+I0831 12:45:01.104383   13313 poseidon.go:53] Cumulative schedule time206.623258ms
+I0831 12:45:01.104390   13313 poseidon.go:55] Scheduler returned 27 deltas
+I0831 12:45:11.294865   13313 poseidon.go:52] Current schedule time190.272331ms
+I0831 12:45:11.294938   13313 poseidon.go:53] Cumulative schedule time396.895589ms
+I0831 12:45:11.294945   13313 poseidon.go:55] Scheduler returned 173 deltas
+
+3600 pods on all nodes pod anit affinity:
+I0831 12:45:41.298803   13313 poseidon.go:55] Scheduler returned 0 deltas
+I0831 12:45:57.355902   13313 poseidon.go:52] Current schedule time6.050948082s
+I0831 12:45:57.355930   13313 poseidon.go:53] Cumulative schedule time6.447843671s
+I0831 12:45:57.355936   13313 poseidon.go:55] Scheduler returned 339 deltas
+I0831 12:46:12.360221   13313 poseidon.go:52] Current schedule time5.003815922s
+I0831 12:46:12.360265   13313 poseidon.go:53] Cumulative schedule time11.451659593s
+I0831 12:46:12.360272   13313 poseidon.go:55] Scheduler returned 355 deltas
+I0831 12:46:27.363515   13313 poseidon.go:52] Current schedule time5.002748332s
+I0831 12:46:27.363577   13313 poseidon.go:53] Cumulative schedule time16.454407925s
+I0831 12:46:27.363583   13313 poseidon.go:55] Scheduler returned 292 deltas
+I0831 12:46:42.371556   13313 poseidon.go:52] Current schedule time5.00750371s
+I0831 12:46:42.371588   13313 poseidon.go:53] Cumulative schedule time21.461911635s
+I0831 12:46:42.371594   13313 poseidon.go:55] Scheduler returned 317 deltas
+I0831 12:46:57.385804   13313 poseidon.go:52] Current schedule time5.013752518s
+I0831 12:46:57.385846   13313 poseidon.go:53] Cumulative schedule time26.475664153s
+I0831 12:46:57.385852   13313 poseidon.go:55] Scheduler returned 297 deltas
+I0831 12:47:12.390953   13313 poseidon.go:52] Current schedule time5.004533198s
+I0831 12:47:12.390995   13313 poseidon.go:53] Cumulative schedule time31.480197351s
+I0831 12:47:12.391002   13313 poseidon.go:55] Scheduler returned 278 deltas
+I0831 12:47:27.407101   13313 poseidon.go:52] Current schedule time5.015674742s
+I0831 12:47:27.407136   13313 poseidon.go:53] Cumulative schedule time36.495872093s
+I0831 12:47:27.407142   13313 poseidon.go:55] Scheduler returned 252 deltas
+I0831 12:47:42.423871   13313 poseidon.go:52] Current schedule time5.016344861s
+I0831 12:47:42.423912   13313 poseidon.go:53] Cumulative schedule time41.512216954s
+I0831 12:47:42.423918   13313 poseidon.go:55] Scheduler returned 254 deltas
+I0831 12:47:57.436506   13313 poseidon.go:52] Current schedule time5.01216543s
+I0831 12:47:57.436573   13313 poseidon.go:53] Cumulative schedule time46.524382384s
+I0831 12:47:57.436599   13313 poseidon.go:55] Scheduler returned 238 deltas
+I0831 12:48:12.448935   13313 poseidon.go:52] Current schedule time5.011832774s
+I0831 12:48:12.448980   13313 poseidon.go:53] Cumulative schedule time51.536215158s
+I0831 12:48:12.448987   13313 poseidon.go:55] Scheduler returned 227 deltas
+I0831 12:48:27.470493   13313 poseidon.go:52] Current schedule time5.021165598s
+I0831 12:48:27.470535   13313 poseidon.go:53] Cumulative schedule time56.557380756s
+I0831 12:48:27.470542   13313 poseidon.go:55] Scheduler returned 243 deltas
+I0831 12:48:42.490682   13313 poseidon.go:52] Current schedule time5.019716817s
+I0831 12:48:42.490730   13313 poseidon.go:53] Cumulative schedule time1m1.577097573s
+I0831 12:48:42.490737   13313 poseidon.go:55] Scheduler returned 223 deltas
+I0831 12:48:57.499176   13313 poseidon.go:52] Current schedule time5.008056987s
+I0831 12:48:57.499215   13313 poseidon.go:53] Cumulative schedule time1m6.58515456s
+I0831 12:48:57.499221   13313 poseidon.go:55] Scheduler returned 236 deltas
+I0831 12:49:08.785696   13313 poseidon.go:52] Current schedule time1.286079262s
+I0831 12:49:08.785734   13313 poseidon.go:53] Cumulative schedule time1m7.871233822s
+I0831 12:49:08.785741   13313 poseidon.go:55] Scheduler returned 49 deltas
+
+
+DEFAULT:
+200 pods on 200 nodes using nodeSelector:
+
+ UTC m=+166.765878414 End:2018-08-31 12:53:24.096614088 +0000 UTC m=+166.767236210
+I0831 12:53:24.096712       1 scheduler.go:454] Total Schedule Algo cumulative time:244.255552ms for 198
+I0831 12:53:24.102110       1 scheduler.go:451] ScheduleAlgoTime 700.106µs Start:2018-08-31 12:53:24.101404452 +0000 UTC m=+166.772026631 End:2018-08-31 12:53:24.102104615 +0000 UTC m=+166.772726737
+I0831 12:53:24.102141       1 scheduler.go:454] Total Schedule Algo cumulative time:244.955658ms for 199
+I0831 12:53:24.106435       1 scheduler.go:451] ScheduleAlgoTime 757.549µs Start:2018-08-31 12:53:24.105662667 +0000 UTC m=+166.776284824 End:2018-08-31 12:53:24.10642025 +0000 UTC m=+166.777042373
+I0831 12:53:24.106476       1 scheduler.go:454] Total Schedule Algo cumulative time:245.713207ms for 200
+
+3600 pods on all nodes pod anti affinity:
+
+I0831 12:56:10.439432       1 scheduler.go:454] Total Schedule Algo cumulative time:2m3.720019441s for 3798
+I0831 12:56:10.503820       1 scheduler.go:451] ScheduleAlgoTime 64.245998ms Start:2018-08-31 12:56:10.439566287 +0000 UTC m=+333.110188436 End:2018-08-31 12:56:10.503812315 +0000 UTC m=+333.174434434
+I0831 12:56:10.503873       1 scheduler.go:454] Total Schedule Algo cumulative time:2m3.784265439s for 3799
+I0831 12:56:10.577361       1 scheduler.go:451] ScheduleAlgoTime 73.33259ms Start:2018-08-31 12:56:10.504019385 +0000 UTC m=+333.174641550 End:2018-08-31 12:56:10.577352019 +0000 UTC m=+333.247974140
+I0831 12:56:10.577417       1 scheduler.go:454] Total Schedule Algo cumulative time:2m3.857598029s for 3800
+
+

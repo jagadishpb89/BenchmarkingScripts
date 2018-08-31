@@ -1,0 +1,267 @@
+I0831 12:44:00.880651   13313 config.go:178] ReadFromCommandLineFlags{poseidon 0.0.0.0 /home/kubernetes/kubeconfig.kubemark 1.6 0.0.0.0:9091 10 9090 . false 0.0.0.0:8989 0.0.0.0:8989 0.0.0.0:8989 500 1000}
+W0831 12:44:00.880781   13313 config.go:131] Config File "poseidon_config" Not Found in "[/home/kubernetes/go/src/github.com/kubernetes-sigs/poseidon/cmd/poseidon]"unable to read poseidon_config, using command flags/default values
+I0831 12:44:00.890599   13313 poseidon.go:120] Starting Poseidon with firmament address 0.0.0.0:9090.
+I0831 12:44:00.893861   13313 stats.go:164] Starting stats server...
+I0831 12:44:00.894201   13313 poseidon.go:55] Scheduler returned 0 deltas
+I0831 12:44:00.902129   13313 k8sclient.go:91] k8s newclient called
+I0831 12:44:00.902172   13313 nodewatcher.go:40] Starting NodeWatcher...
+I0831 12:44:00.902193   13313 nodewatcher.go:213] Getting node updates...
+I0831 12:44:00.942924   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-l5fzx
+I0831 12:44:00.942968   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-25l9c
+I0831 12:44:00.942977   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-69tsq
+I0831 12:44:00.942987   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-wtn4q
+I0831 12:44:00.942994   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-tknr6
+I0831 12:44:00.943030   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-lrss5
+I0831 12:44:00.943048   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-7xgkm
+I0831 12:44:00.943055   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-5fsl6
+I0831 12:44:00.943117   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-g2nrw
+I0831 12:44:00.943140   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-9ftll
+I0831 12:44:00.943147   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-hw5vb
+I0831 12:44:00.943154   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-6gmz5
+I0831 12:44:00.943161   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-87mm6
+I0831 12:44:00.943180   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-97wkv
+I0831 12:44:00.943188   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-lcbms
+I0831 12:44:00.943195   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-dv9nk
+I0831 12:44:00.943206   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-vhvvh
+I0831 12:44:00.943219   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-4rgmq
+I0831 12:44:00.943225   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-x96wj
+I0831 12:44:00.943232   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-pw9fk
+I0831 12:44:00.943239   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-hx64j
+I0831 12:44:00.943251   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-kxdsx
+I0831 12:44:00.943257   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-lcqq4
+I0831 12:44:00.943276   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-fbk6z
+I0831 12:44:00.943284   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-v745s
+I0831 12:44:00.943295   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-whxd8
+I0831 12:44:00.943309   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-zdqwd
+I0831 12:44:00.943317   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-lhxm6
+I0831 12:44:00.943329   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-hw2bt
+I0831 12:44:00.943336   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-2jrnw
+I0831 12:44:00.943345   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-sntc5
+I0831 12:44:00.943352   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-nkhln
+I0831 12:44:00.943368   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-69gks
+I0831 12:44:00.943379   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-kqh29
+I0831 12:44:00.943386   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-rtjgt
+I0831 12:44:00.943394   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-nlvzm
+I0831 12:44:00.943401   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-c6sq9
+I0831 12:44:00.943408   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-tzkmv
+I0831 12:44:00.943415   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-mn2bq
+I0831 12:44:00.943432   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-24xj4
+I0831 12:44:00.943443   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-vgbqk
+I0831 12:44:00.943450   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-lmpt9
+I0831 12:44:00.943462   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-dns45
+I0831 12:44:00.943469   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-7w7gc
+I0831 12:44:00.943480   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-8dnj6
+I0831 12:44:00.943486   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-xhp6f
+I0831 12:44:00.943494   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-hxp6l
+I0831 12:44:00.943501   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-nsfs4
+I0831 12:44:00.943508   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-nzs79
+I0831 12:44:00.943519   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-j5g79
+I0831 12:44:00.943526   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-qw84d
+I0831 12:44:00.943533   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-tsqr6
+I0831 12:44:00.943561   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-kpnrp
+I0831 12:44:00.943586   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-vwjm8
+I0831 12:44:00.943594   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-qph6q
+I0831 12:44:00.943602   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-2mwxd
+I0831 12:44:00.943610   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-p8s5b
+I0831 12:44:00.943619   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-gg59g
+I0831 12:44:00.943625   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-dq7zl
+I0831 12:44:00.943631   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-22rc6
+I0831 12:44:00.943637   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-hxctn
+I0831 12:44:00.943643   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-fsbpj
+I0831 12:44:00.943649   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-r8hn5
+I0831 12:44:00.943654   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-9q9rg
+I0831 12:44:00.943662   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-gl585
+I0831 12:44:00.943674   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-d4ddb
+I0831 12:44:00.943680   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-wchmz
+I0831 12:44:00.943686   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-7mcbz
+I0831 12:44:00.943691   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-mc7zb
+I0831 12:44:00.943702   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-kgzlh
+I0831 12:44:00.943709   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-7l59k
+I0831 12:44:00.943715   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-t7x2p
+I0831 12:44:00.943731   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-btfnv
+I0831 12:44:00.943739   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-fhdkz
+I0831 12:44:00.943745   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-6xgb7
+I0831 12:44:00.943752   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-tt2l2
+I0831 12:44:00.943758   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-f2wtz
+I0831 12:44:00.943764   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-bwvhb
+I0831 12:44:00.943771   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-tbgp6
+I0831 12:44:00.943779   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-pbbb8
+I0831 12:44:00.943786   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-g4ctp
+I0831 12:44:00.943794   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-wtwnc
+I0831 12:44:00.943801   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-sln5d
+I0831 12:44:00.943812   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-fcxrs
+I0831 12:44:00.943819   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-ttktw
+I0831 12:44:00.943828   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-xvvkd
+I0831 12:44:00.943834   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-qhlzp
+I0831 12:44:00.943840   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-l46kn
+I0831 12:44:00.943849   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-fjm8z
+I0831 12:44:00.943855   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-vmfn6
+I0831 12:44:00.943861   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-t5rzn
+I0831 12:44:00.943873   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-fkmtj
+I0831 12:44:00.943880   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-h8bzq
+I0831 12:44:00.943886   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-xfl8x
+I0831 12:44:00.943896   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-22djj
+I0831 12:44:00.943902   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-ddlhf
+I0831 12:44:00.943909   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-dncbz
+I0831 12:44:00.943919   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-jxpqf
+I0831 12:44:00.943928   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-qjgv6
+I0831 12:44:00.943936   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-96wrk
+I0831 12:44:00.943953   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-vkvbn
+I0831 12:44:00.943961   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-knd9q
+I0831 12:44:00.943972   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-fpmkz
+I0831 12:44:00.943978   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-s9scl
+I0831 12:44:00.944055   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-skq9j
+I0831 12:44:00.944074   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-p6tbx
+I0831 12:44:00.944083   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-4qp4v
+I0831 12:44:00.944091   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-jp6sk
+I0831 12:44:00.944099   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-dt42w
+I0831 12:44:00.944110   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-9wx6s
+I0831 12:44:00.944118   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-vtfd2
+I0831 12:44:00.944125   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-49rkv
+I0831 12:44:00.944137   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-wbjbh
+I0831 12:44:00.944144   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-6k6hj
+I0831 12:44:00.944155   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-tl5m8
+I0831 12:44:00.944162   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-w8vtn
+I0831 12:44:00.944171   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-hsqx4
+I0831 12:44:00.944176   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-gclfl
+I0831 12:44:00.944181   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-ppvpd
+I0831 12:44:00.944186   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-b46gr
+I0831 12:44:00.944192   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-dbfwb
+I0831 12:44:00.944197   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-6hxj5
+I0831 12:44:00.944203   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-44z7l
+I0831 12:44:00.944210   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-f7g67
+I0831 12:44:00.944216   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-qhh9g
+I0831 12:44:00.944226   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-k5fnr
+I0831 12:44:00.944232   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-mrgs4
+I0831 12:44:00.944238   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-h6mkw
+I0831 12:44:00.944246   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-lt59f
+I0831 12:44:00.944253   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-9wqbd
+I0831 12:44:00.944260   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-rd5vl
+I0831 12:44:00.944266   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-5pn6j
+I0831 12:44:00.944279   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-4nfdq
+I0831 12:44:00.944288   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-h9tvl
+I0831 12:44:00.944295   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-smngs
+I0831 12:44:00.944307   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-xkwtn
+I0831 12:44:00.944313   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-5w29t
+I0831 12:44:00.944319   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-qqr6k
+I0831 12:44:00.944325   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-k5l8j
+I0831 12:44:00.944336   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-rzk46
+I0831 12:44:00.944347   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-wl924
+I0831 12:44:00.944355   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-74h2r
+I0831 12:44:00.944363   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-r2ccf
+I0831 12:44:00.944370   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-qdnkk
+I0831 12:44:00.944380   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-z8ppg
+I0831 12:44:00.944387   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-k4pzb
+I0831 12:44:00.944393   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-km78v
+I0831 12:44:00.944401   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-7txzs
+I0831 12:44:00.944407   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-75l7m
+I0831 12:44:00.944416   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-2mbwm
+I0831 12:44:00.944433   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-cwng9
+I0831 12:44:00.944444   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-qch9x
+I0831 12:44:00.944453   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-2mgjw
+I0831 12:44:00.944466   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-gtb49
+I0831 12:44:00.944472   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-8jcdk
+I0831 12:44:00.944478   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-dxpv6
+I0831 12:44:00.944484   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-dvtvz
+I0831 12:44:00.944495   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-b9fgb
+I0831 12:44:00.944502   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-ljxvz
+I0831 12:44:00.944509   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-9s7c7
+I0831 12:44:00.944519   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-tx5lv
+I0831 12:44:00.944524   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-brxrk
+I0831 12:44:00.944530   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-56sh6
+I0831 12:44:00.944541   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-5xs7f
+I0831 12:44:00.944547   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-rf7n5
+I0831 12:44:00.944554   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-rs5cb
+I0831 12:44:00.944564   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-2thkz
+I0831 12:44:00.944569   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-654qc
+I0831 12:44:00.944575   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-snkb2
+I0831 12:44:00.944585   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-q8wv6
+I0831 12:44:00.944591   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-n59n8
+I0831 12:44:00.944596   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-w8rzd
+I0831 12:44:00.944601   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-xl5z8
+I0831 12:44:00.944607   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-h6prq
+I0831 12:44:00.944612   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-9ld4n
+I0831 12:44:00.944623   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-2qr5l
+I0831 12:44:00.944630   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-scgsm
+I0831 12:44:00.944635   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-vrzsh
+I0831 12:44:00.944641   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-ztt49
+I0831 12:44:00.944647   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-7gckl
+I0831 12:44:00.944657   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-vp2v7
+I0831 12:44:00.944664   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-47mgg
+I0831 12:44:00.944670   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-j26q7
+I0831 12:44:00.944676   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-bdm4r
+I0831 12:44:00.944682   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-8x2sf
+I0831 12:44:00.944692   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-zk7wl
+I0831 12:44:00.944700   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-vc6lj
+I0831 12:44:00.944708   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-97vhd
+I0831 12:44:00.944715   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-98kjz
+I0831 12:44:00.944726   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-tjnxf
+I0831 12:44:00.944732   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-c65xv
+I0831 12:44:00.944738   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-xjcm9
+I0831 12:44:00.944746   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-sjf5w
+I0831 12:44:00.944752   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-2vvds
+I0831 12:44:00.944758   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-d5l56
+I0831 12:44:00.944768   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-sszqz
+I0831 12:44:00.944774   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-tw7k4
+I0831 12:44:00.944780   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-4p5k9
+I0831 12:44:00.944786   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-s2f7l
+I0831 12:44:00.944792   13313 nodewatcher.go:140] enqueueNodeAdition: Added node hollow-node-4hlkz
+I0831 12:44:01.002421   13313 nodewatcher.go:222] Starting node watching workers
+I0831 12:44:10.895317   13313 poseidon.go:55] Scheduler returned 0 deltas
+I0831 12:44:20.895857   13313 poseidon.go:55] Scheduler returned 0 deltas
+I0831 12:44:30.896375   13313 poseidon.go:55] Scheduler returned 0 deltas
+I0831 12:44:40.896904   13313 poseidon.go:55] Scheduler returned 0 deltas
+I0831 12:44:50.897552   13313 poseidon.go:55] Scheduler returned 0 deltas
+I0831 12:45:01.104351   13313 poseidon.go:52] Current schedule time206.623258ms
+I0831 12:45:01.104383   13313 poseidon.go:53] Cumulative schedule time206.623258ms
+I0831 12:45:01.104390   13313 poseidon.go:55] Scheduler returned 27 deltas
+I0831 12:45:11.294865   13313 poseidon.go:52] Current schedule time190.272331ms
+I0831 12:45:11.294938   13313 poseidon.go:53] Cumulative schedule time396.895589ms
+I0831 12:45:11.294945   13313 poseidon.go:55] Scheduler returned 173 deltas
+I0831 12:45:21.296247   13313 poseidon.go:55] Scheduler returned 0 deltas
+I0831 12:45:31.297532   13313 poseidon.go:55] Scheduler returned 0 deltas
+I0831 12:45:41.298803   13313 poseidon.go:55] Scheduler returned 0 deltas
+I0831 12:45:57.355902   13313 poseidon.go:52] Current schedule time6.050948082s
+I0831 12:45:57.355930   13313 poseidon.go:53] Cumulative schedule time6.447843671s
+I0831 12:45:57.355936   13313 poseidon.go:55] Scheduler returned 339 deltas
+I0831 12:46:12.360221   13313 poseidon.go:52] Current schedule time5.003815922s
+I0831 12:46:12.360265   13313 poseidon.go:53] Cumulative schedule time11.451659593s
+I0831 12:46:12.360272   13313 poseidon.go:55] Scheduler returned 355 deltas
+I0831 12:46:27.363515   13313 poseidon.go:52] Current schedule time5.002748332s
+I0831 12:46:27.363577   13313 poseidon.go:53] Cumulative schedule time16.454407925s
+I0831 12:46:27.363583   13313 poseidon.go:55] Scheduler returned 292 deltas
+I0831 12:46:42.371556   13313 poseidon.go:52] Current schedule time5.00750371s
+I0831 12:46:42.371588   13313 poseidon.go:53] Cumulative schedule time21.461911635s
+I0831 12:46:42.371594   13313 poseidon.go:55] Scheduler returned 317 deltas
+I0831 12:46:57.385804   13313 poseidon.go:52] Current schedule time5.013752518s
+I0831 12:46:57.385846   13313 poseidon.go:53] Cumulative schedule time26.475664153s
+I0831 12:46:57.385852   13313 poseidon.go:55] Scheduler returned 297 deltas
+I0831 12:47:12.390953   13313 poseidon.go:52] Current schedule time5.004533198s
+I0831 12:47:12.390995   13313 poseidon.go:53] Cumulative schedule time31.480197351s
+I0831 12:47:12.391002   13313 poseidon.go:55] Scheduler returned 278 deltas
+I0831 12:47:27.407101   13313 poseidon.go:52] Current schedule time5.015674742s
+I0831 12:47:27.407136   13313 poseidon.go:53] Cumulative schedule time36.495872093s
+I0831 12:47:27.407142   13313 poseidon.go:55] Scheduler returned 252 deltas
+I0831 12:47:42.423871   13313 poseidon.go:52] Current schedule time5.016344861s
+I0831 12:47:42.423912   13313 poseidon.go:53] Cumulative schedule time41.512216954s
+I0831 12:47:42.423918   13313 poseidon.go:55] Scheduler returned 254 deltas
+I0831 12:47:57.436506   13313 poseidon.go:52] Current schedule time5.01216543s
+I0831 12:47:57.436573   13313 poseidon.go:53] Cumulative schedule time46.524382384s
+I0831 12:47:57.436599   13313 poseidon.go:55] Scheduler returned 238 deltas
+I0831 12:48:12.448935   13313 poseidon.go:52] Current schedule time5.011832774s
+I0831 12:48:12.448980   13313 poseidon.go:53] Cumulative schedule time51.536215158s
+I0831 12:48:12.448987   13313 poseidon.go:55] Scheduler returned 227 deltas
+I0831 12:48:27.470493   13313 poseidon.go:52] Current schedule time5.021165598s
+I0831 12:48:27.470535   13313 poseidon.go:53] Cumulative schedule time56.557380756s
+I0831 12:48:27.470542   13313 poseidon.go:55] Scheduler returned 243 deltas
+I0831 12:48:42.490682   13313 poseidon.go:52] Current schedule time5.019716817s
+I0831 12:48:42.490730   13313 poseidon.go:53] Cumulative schedule time1m1.577097573s
+I0831 12:48:42.490737   13313 poseidon.go:55] Scheduler returned 223 deltas
+I0831 12:48:57.499176   13313 poseidon.go:52] Current schedule time5.008056987s
+I0831 12:48:57.499215   13313 poseidon.go:53] Cumulative schedule time1m6.58515456s
+I0831 12:48:57.499221   13313 poseidon.go:55] Scheduler returned 236 deltas
+I0831 12:49:08.785696   13313 poseidon.go:52] Current schedule time1.286079262s
+I0831 12:49:08.785734   13313 poseidon.go:53] Cumulative schedule time1m7.871233822s
+I0831 12:49:08.785741   13313 poseidon.go:55] Scheduler returned 49 deltas
+I0831 12:49:18.788933   13313 poseidon.go:55] Scheduler returned 0 deltas
+I0831 12:49:28.790365   13313 poseidon.go:55] Scheduler returned 0 deltas

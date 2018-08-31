@@ -1,8 +1,0 @@
-nodes: 400
-max pods that can be safely deployed: 7600
-
-1. Apply labelA on 200 nodes(setA)
-2. Apply labelB on 200 nodes(setB)
-3. Deploy 1000 normal pods with labelC on setA nodes using nodeSelector.
-4. Deploy 1000 pod affinty pods which has affinity on 1000 normal pods which has labelC.
-5. Only measure scheduling time taken by pod affinity pods.

@@ -1,0 +1,23 @@
+I0831 12:43:58.698801 13308 firmament_scheduler_service.cc:676] Firmament scheduler starting ...
+I0831 12:43:58.710973954   13308 server_builder.cc:247]      Synchronous server. Num CQs: 1, Min pollers: 1, Max Pollers: 2147483647, CQ timeout (msec): 1000
+I0831 12:43:58.713940 13308 firmament_scheduler_service.cc:682] Firmament scheduler listening on 0.0.0.0:9090
+I0831 12:45:00.921314 13354 solver_dispatcher.cc:182] Writing flow graph debug info into /tmp/firmament-debug/debug_0.dm
+I0831 12:45:01.094415 13354 utils.cc:341] External execution of command: ./build/third_party/cs2/src/cs2/cs2.exe 
+I0831 12:45:01.103924 13354 firmament_scheduler_service.cc:180] Got 27 scheduling deltas
+I0831 12:45:11.244828 13352 solver_dispatcher.cc:182] Writing flow graph debug info into /tmp/firmament-debug/debug_1.dm
+I0831 12:45:11.265390 13352 utils.cc:341] External execution of command: ./build/third_party/cs2/src/cs2/cs2.exe 
+I0831 12:45:11.294353 13352 firmament_scheduler_service.cc:180] Got 173 scheduling deltas
+I0831 12:45:57.355214  4683 firmament_scheduler_service.cc:180] Got 339 scheduling deltas
+I0831 12:46:12.359315  7295 firmament_scheduler_service.cc:180] Got 355 scheduling deltas
+I0831 12:46:27.362529  7286 firmament_scheduler_service.cc:180] Got 292 scheduling deltas
+I0831 12:46:42.370654  7489 firmament_scheduler_service.cc:180] Got 317 scheduling deltas
+I0831 12:46:57.384968  7489 firmament_scheduler_service.cc:180] Got 297 scheduling deltas
+I0831 12:47:12.390137  7489 firmament_scheduler_service.cc:180] Got 278 scheduling deltas
+I0831 12:47:27.406323  7489 firmament_scheduler_service.cc:180] Got 252 scheduling deltas
+I0831 12:47:42.422879  7486 firmament_scheduler_service.cc:180] Got 254 scheduling deltas
+I0831 12:47:57.435425  7489 firmament_scheduler_service.cc:180] Got 238 scheduling deltas
+I0831 12:48:12.447320  7489 firmament_scheduler_service.cc:180] Got 227 scheduling deltas
+I0831 12:48:27.469653  7486 firmament_scheduler_service.cc:180] Got 243 scheduling deltas
+I0831 12:48:42.489925  7489 firmament_scheduler_service.cc:180] Got 223 scheduling deltas
+I0831 12:48:57.498402  7486 firmament_scheduler_service.cc:180] Got 236 scheduling deltas
+I0831 12:49:08.785038  7489 firmament_scheduler_service.cc:180] Got 49 scheduling deltas

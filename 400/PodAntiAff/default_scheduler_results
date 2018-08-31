@@ -1,8 +1,0 @@
-1000 normal pods:
-I0827 11:32:24.510332       1 scheduler.go:451] ScheduleAlgoTime 1.557237ms Start:2018-08-27 11:32:24.508768788 +0000 UTC m=+30.378075990 End:2018-08-27 11:32:24.510326045 +0000 UTC m=+30.379633227
-I0827 11:32:24.510357       1 scheduler.go:454] Total Schedule Algo cumulative time:2.0943515s for 1000
-
-1000 pod affinty pods having affinty above 1000 pods.
-I0827 11:35:11.074420       1 scheduler.go:451] ScheduleAlgoTime 58.602645ms Start:2018-08-27 11:35:11.015804635 +0000 UTC m=+196.885111872 End:2018-08-27 11:35:11.074407333 +0000 UTC m=+196.943714517
-I0827 11:35:11.074493       1 scheduler.go:454] Total Schedule Algo cumulative time:51.423082574s for 2000
-Actual time: 51.423082574s - 2.0943515s = 49.328731074 s

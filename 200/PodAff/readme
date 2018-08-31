@@ -1,8 +1,35 @@
-nodes: 400
-max pods that can be safely deployed: 7600
+Firmament:
+200 pods on 200 nodes using nodeSelector:
+I0831 12:38:12.054478   20921 poseidon.go:52] Current schedule time307.994277ms
+I0831 12:38:12.054517   20921 poseidon.go:53] Cumulative schedule time307.994277ms
+I0831 12:38:12.054525   20921 poseidon.go:55] Scheduler returned 49 deltas
+I0831 12:38:22.225244   20921 poseidon.go:52] Current schedule time170.521157ms
+I0831 12:38:22.225277   20921 poseidon.go:53] Cumulative schedule time478.515434ms
+I0831 12:38:22.225283   20921 poseidon.go:55] Scheduler returned 151 deltas
 
-1. Apply labelA on 200 nodes(setA)
-2. Apply labelB on 200 nodes(setB)
-3. Deploy 1000 normal pods with labelC on setA nodes using nodeSelector.
-4. Deploy 1000 pod affinty pods which has affinity on 1000 normal pods which has labelC.
-5. Only measure scheduling time taken by pod affinity pods.
+3600 pods on all nodes pod affinity:
+I0831 12:39:37.239612   20921 poseidon.go:52] Current schedule time5.006336175s
+I0831 12:39:37.239638   20921 poseidon.go:53] Cumulative schedule time5.484851609s
+I0831 12:39:37.239643   20921 poseidon.go:55] Scheduler returned 1687 deltas
+I0831 12:39:52.326491   20921 poseidon.go:52] Current schedule time5.031341518s
+I0831 12:39:52.326518   20921 poseidon.go:53] Cumulative schedule time10.516193127s
+I0831 12:39:52.326523   20921 poseidon.go:55] Scheduler returned 913 deltas
+I0831 12:40:07.342847   20921 poseidon.go:52] Current schedule time5.015503034s
+I0831 12:40:07.342879   20921 poseidon.go:53] Cumulative schedule time15.531696161s
+I0831 12:40:07.342885   20921 poseidon.go:55] Scheduler returned 771 deltas
+I0831 12:40:18.975558   20921 poseidon.go:52] Current schedule time1.631955417s
+I0831 12:40:18.975590   20921 poseidon.go:53] Cumulative schedule time17.163651578s
+I0831 12:40:18.975597   20921 poseidon.go:55] Scheduler returned 229 deltas
+
+
+Default:
+200 pods on 200 nodes using nodeSelector:
+I0831 12:58:21.009480       1 scheduler.go:454] Total Schedule Algo cumulative time:137.554939ms for 199
+I0831 12:58:21.010057       1 scheduler.go:451] ScheduleAlgoTime 513.94µs Start:2018-08-31 12:58:21.009538732 +0000 UTC m=+17.760490449 End:2018-08-31 12:58:21.010052733 +0000 UTC m=+17.761004389
+I0831 12:58:21.010099       1 scheduler.go:454] Total Schedule Algo cumulative time:138.068879ms for 200
+
+3600 pods on all nodes pod affinity:
+I0831 13:00:43.444610       1 scheduler.go:451] ScheduleAlgoTime 54.659154ms Start:2018-08-31 13:00:43.389932125 +0000 UTC m=+160.140883822 End:2018-08-31 13:00:43.444591316 +0000 UTC m=+160.195542976
+I0831 13:00:43.444676       1 scheduler.go:454] Total Schedule Algo cumulative time:1m47.931407108s for 3799
+I0831 13:00:43.499686       1 scheduler.go:451] ScheduleAlgoTime 54.843005ms Start:2018-08-31 13:00:43.444832666 +0000 UTC m=+160.195784399 End:2018-08-31 13:00:43.499675744 +0000 UTC m=+160.250627404
+I0831 13:00:43.499757       1 scheduler.go:454] Total Schedule Algo cumulative time:1m47.986250113s for 3800
