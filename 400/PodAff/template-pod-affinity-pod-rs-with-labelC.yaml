@@ -18,12 +18,11 @@ spec:
           requiredDuringSchedulingIgnoredDuringExecution:
           - labelSelector:
               matchExpressions:
-              - key: labelc1
+              - key: akey
                 operator: In
                 values:
-                - labelc2
+                - avalue
             topologyKey: kubernetes.io/hostname
-#      schedulerName: poseidon
       containers:
       - name: nginx
         image: "nginx:1.11.1-alpine"

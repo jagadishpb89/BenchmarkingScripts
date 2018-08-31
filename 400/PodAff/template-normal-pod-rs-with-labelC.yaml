@@ -3,19 +3,19 @@ kind: ReplicaSet
 metadata:
   name: nginx-pod
 spec:
-  replicas: replicas_value
+  replicas: replicas_string
   selector:
     matchLabels:
-      labelc1: labelc2
+      key: value
   template:
     metadata:
       name: nginx-replica-set
       labels:
-        labelc1: labelc2
+        key: value
     spec:
 #      schedulerName: poseidon
       nodeSelector:
-        labela1: labela2
+        key: value
       containers:
       - name: nginx
         image: "nginx:1.11.1-alpine"

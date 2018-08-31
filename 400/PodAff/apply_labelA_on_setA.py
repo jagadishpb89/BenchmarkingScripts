@@ -2,14 +2,16 @@
 
 import commands
 
-output = commands.getoutput("kubectl get nodes | head -n 201")
+output = commands.getoutput("kubectl get nodes")
 
 outputLines = output.split("\n")
 
-labelA = "labela1=labela2"
+index = 0
 
 for outputLine in outputLines[1:] :
    name = outputLine.split(" ")[0]
-   cmd = "kubectl label nodes " + name + " " + labelA
-   print cmd
-   print commands.getoutput(cmd)
+   if "real-master" not in name:
+     cmd = "kubectl label nodes " + name + " " + "key" + str(index) + "=value" + str(index)
+     index += 1
+     print cmd
+     print commands.getoutput(cmd)
