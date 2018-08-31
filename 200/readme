@@ -3,3 +3,15 @@ Pod affinity and pod anti affinity benchmarking steps
 1. Deploy 1 normal pod on 1 node each with unique label with the help of node selector.
 2. Deploy 18 pods on one node each with same unique label using pod affinty and pod anti affinity.
 
+
+
+
+Node affinity benchmarking steps
+
+1. Deploy 1 normal pod on 1 node each with unique label with the help of node selector.
+2. Deploy 18 pods on one node each with same unique label using node affinity.
+
+
+Node anti affinity benchmarking steps
+
+1. Same as above.

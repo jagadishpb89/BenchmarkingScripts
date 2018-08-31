@@ -1,0 +1,30 @@
+apiVersion: extensions/v1beta1
+kind: ReplicaSet
+metadata:
+  name: nginx-pod-130-1
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      key130: value130
+  template:
+    metadata:
+      name: nginx-replica-set
+      labels:
+        key130: value130
+    spec:
+#      schedulerName: poseidon
+      nodeSelector:
+        key130: value130
+      containers:
+      - name: nginx
+        image: "nginx:1.11.1-alpine"
+        ports:
+        - containerPort: 80
+        resources:
+          requests:
+            memory: "4Ki"
+            cpu: "2m"
+          limits:
+            memory: "8Ki"
+            cpu: "6m"

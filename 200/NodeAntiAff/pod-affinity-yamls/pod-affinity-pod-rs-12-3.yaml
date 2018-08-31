@@ -1,0 +1,37 @@
+apiVersion: extensions/v1beta1
+kind: ReplicaSet
+metadata:
+  name: nginx-pod-affinity-pod-12-3
+spec:
+  replicas: 19
+  selector:
+    matchLabels:
+      labeld1: labeld2
+  template:
+    metadata:
+      name: nginx-replica-set
+      labels:
+        labeld1: labeld2
+    spec:
+      schedulerName: poseidon
+      affinity:
+        nodeAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            nodeSelectorTerms:
+            - matchExpressions:
+              - key: key12
+                operator: NotIn
+                values:
+                - value12
+      containers:
+      - name: nginx
+        image: "nginx:1.11.1-alpine"
+        ports:
+        - containerPort: 80
+        resources:
+          requests:
+            memory: "4Ki"
+            cpu: "2m"
+          limits:
+            memory: "8Ki"
+            cpu: "6m"

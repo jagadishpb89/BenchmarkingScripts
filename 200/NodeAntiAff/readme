@@ -1,0 +1,11 @@
+node anit affinity:
+
+firmament:
+I0831 13:35:21.657584   10504 poseidon.go:52] Current schedule time5.559957464s
+I0831 13:35:21.657657   10504 poseidon.go:53] Cumulative schedule time5.559957464s
+I0831 13:35:21.657663   10504 poseidon.go:55] Scheduler returned 3800 deltas
+
+defalt:
+I0831 13:31:50.837003       1 scheduler.go:454] Total Schedule Algo cumulative time:9.026202474s for 3799
+I0831 13:31:50.839058       1 scheduler.go:451] ScheduleAlgoTime 1.965666ms Start:2018-08-31 13:31:50.837086562 +0000 UTC m=+41.604249893 End:2018-08-31 13:31:50.839052277 +0000 UTC m=+41.606215559
+I0831 13:31:50.839089       1 scheduler.go:454] Total Schedule Algo cumulative time:9.02816814s for 3800

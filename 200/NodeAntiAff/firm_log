@@ -1,0 +1,6 @@
+I0831 13:21:38.062217 24518 firmament_scheduler_service.cc:676] Firmament scheduler starting ...
+I0831 13:21:38.287373305   24518 server_builder.cc:247]      Synchronous server. Num CQs: 1, Min pollers: 1, Max Pollers: 2147483647, CQ timeout (msec): 1000
+I0831 13:21:38.290853 24518 firmament_scheduler_service.cc:682] Firmament scheduler listening on 0.0.0.0:9090
+I0831 13:21:50.364547 25357 solver_dispatcher.cc:182] Writing flow graph debug info into /tmp/firmament-debug/debug_0.dm
+I0831 13:21:50.402817 25357 utils.cc:341] External execution of command: ./build/third_party/cs2/src/cs2/cs2.exe 
+I0831 13:21:50.489450 25357 firmament_scheduler_service.cc:180] Got 3800 scheduling deltas

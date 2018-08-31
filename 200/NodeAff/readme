@@ -1,0 +1,12 @@
+node affinity:
+
+firmament:
+I0831 13:21:40.178640   25200 nodewatcher.go:222] Starting node watching workers
+I0831 13:21:50.494632   25200 poseidon.go:52] Current schedule time523.4709ms
+I0831 13:21:50.494669   25200 poseidon.go:53] Cumulative schedule time523.4709ms
+I0831 13:21:50.494676   25200 poseidon.go:55] Scheduler returned 3800 deltas
+
+defalt:
+I0831 13:23:39.319369       1 scheduler.go:454] Total Schedule Algo cumulative time:3.258742102s for 3799
+I0831 13:23:39.320026       1 scheduler.go:451] ScheduleAlgoTime 561.739µs Start:2018-08-31 13:23:39.319459681 +0000 UTC m=+49.782697377 End:2018-08-31 13:23:39.320021451 +0000 UTC m=+49.783259116
+I0831 13:23:39.320050       1 scheduler.go:454] Total Schedule Algo cumulative time:3.259303841s for 3800
