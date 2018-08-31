@@ -1,0 +1,20 @@
+I0827 12:27:04.869078 32329 firmament_scheduler_service.cc:687] Firmament scheduler starting ...
+rm: cannot remove '/tmp/firmament-debug/*': No such file or directory
+I0827 12:27:04.882806924   32329 server_builder.cc:247]      Synchronous server. Num CQs: 1, Min pollers: 1, Max Pollers: 2147483647, CQ timeout (msec): 1000
+I0827 12:27:04.886152 32329 firmament_scheduler_service.cc:693] Firmament scheduler listening on 0.0.0.0:9090
+I0827 12:27:16.728724 32428 solver_dispatcher.cc:182] Writing flow graph debug info into /tmp/firmament-debug/debug_0.dm
+I0827 12:27:16.750485 32428 utils.cc:341] External execution of command: ./cs2.exe 
+I0827 12:27:16.792635 32428 firmament_scheduler_service.cc:180] Got 100 scheduling deltas
+I0827 12:27:31.862571 32428 firmament_scheduler_service.cc:180] Got 60 scheduling deltas
+I0827 12:27:45.211073 32669 firmament_scheduler_service.cc:180] Got 40 scheduling deltas
+I0827 12:27:55.252913   932 solver_dispatcher.cc:182] Writing flow graph debug info into /tmp/firmament-debug/debug_1.dm
+I0827 12:27:55.282677   932 utils.cc:341] External execution of command: ./cs2.exe 
+I0827 12:27:55.339817   932 firmament_scheduler_service.cc:180] Got 500 scheduling deltas
+I0827 12:28:20.493875   932 firmament_scheduler_service.cc:180] Got 13 scheduling deltas
+I0827 12:28:35.651139  1396 firmament_scheduler_service.cc:180] Got 13 scheduling deltas
+I0827 12:28:50.754892   932 firmament_scheduler_service.cc:180] Got 13 scheduling deltas
+I0827 12:29:05.812917  1396 firmament_scheduler_service.cc:180] Got 13 scheduling deltas
+I0827 12:29:21.325606   932 firmament_scheduler_service.cc:180] Got 13 scheduling deltas
+I0827 12:29:36.415074  1396 firmament_scheduler_service.cc:180] Got 13 scheduling deltas
+I0827 12:29:51.514073   932 firmament_scheduler_service.cc:180] Got 13 scheduling deltas
+I0827 12:30:04.923249  1396 firmament_scheduler_service.cc:180] Got 9 scheduling deltas
