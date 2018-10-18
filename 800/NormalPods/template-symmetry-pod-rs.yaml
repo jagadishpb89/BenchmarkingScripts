@@ -14,7 +14,7 @@ spec:
       labels:
         labelc3: labelc4
     spec:
-#      schedulerName: poseidon
+      schedulerName: poseidon
       containers:
       - name: nginx
         image: "nginx:1.11.1-alpine"

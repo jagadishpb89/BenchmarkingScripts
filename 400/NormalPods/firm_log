@@ -1,11 +1,46 @@
-I0828 10:28:13.053571  9307 firmament_scheduler_service.cc:676] Firmament scheduler starting ...
+I1018 09:50:17.771102 12362 firmament_scheduler_service.cc:754] Firmament scheduler starting ...
 rm: cannot remove '/tmp/firmament-debug/*': No such file or directory
-I0828 10:28:13.065807517    9307 server_builder.cc:247]      Synchronous server. Num CQs: 1, Min pollers: 1, Max Pollers: 2147483647, CQ timeout (msec): 1000
-I0828 10:28:13.069425  9307 firmament_scheduler_service.cc:682] Firmament scheduler listening on 0.0.0.0:9090
-I0828 10:28:25.483153  9771 solver_dispatcher.cc:182] Writing flow graph debug info into /tmp/firmament-debug/debug_0.dm
-I0828 10:28:25.602560  9771 utils.cc:341] External execution of command: ./build/third_party/cs2/src/cs2/cs2.exe 
-I0828 10:28:25.904348  9771 firmament_scheduler_service.cc:180] Got 6840 scheduling deltas
-I0828 10:34:15.243782 11951 firmament_scheduler_service.cc:180] Got 100 scheduling deltas
-I0828 10:35:05.358577 12687 solver_dispatcher.cc:182] Writing flow graph debug info into /tmp/firmament-debug/debug_1.dm
-I0828 10:35:05.476337 12687 utils.cc:341] External execution of command: ./build/third_party/cs2/src/cs2/cs2.exe 
-I0828 10:35:05.633604 12687 firmament_scheduler_service.cc:180] Got 760 scheduling deltas
+I1018 09:50:17.784625815   12362 server_builder.cc:247]      Synchronous server. Num CQs: 1, Min pollers: 1, Max Pollers: 2147483647, CQ timeout (msec): 1000
+I1018 09:50:17.787747 12362 firmament_scheduler_service.cc:760] Firmament scheduler listening on 0.0.0.0:9090
+I1018 09:50:20.106271 12376 firmament_scheduler_service.cc:249] Got 0 scheduling deltas
+I1018 09:50:20.106317 12376 firmament_scheduler_service.cc:251] Got 0 unscheduled tasks
+I1018 09:50:30.700656 12569 solver_dispatcher.cc:182] Writing flow graph debug info into /tmp/firmament-debug/debug_0.dm
+I1018 09:50:30.974530 12569 utils.cc:341] External execution of command: build/third_party/cs2/src/cs2/cs2.exe 
+I1018 09:50:31.662945 12569 firmament_scheduler_service.cc:249] Got 6840 scheduling deltas
+I1018 09:50:31.662997 12569 firmament_scheduler_service.cc:251] Got 0 unscheduled tasks
+I1018 09:50:46.528198 12456 firmament_scheduler_service.cc:249] Got 0 scheduling deltas
+I1018 09:50:46.528239 12456 firmament_scheduler_service.cc:251] Got 0 unscheduled tasks
+I1018 09:50:56.529635 12456 firmament_scheduler_service.cc:249] Got 0 scheduling deltas
+I1018 09:50:56.529675 12456 firmament_scheduler_service.cc:251] Got 0 unscheduled tasks
+I1018 09:51:11.548983 12959 firmament_scheduler_service.cc:249] Got 71 scheduling deltas
+I1018 09:51:11.549029 12959 firmament_scheduler_service.cc:251] Got 0 unscheduled tasks
+I1018 09:51:23.346400 12954 firmament_scheduler_service.cc:249] Got 29 scheduling deltas
+I1018 09:51:23.346439 12954 firmament_scheduler_service.cc:251] Got 0 unscheduled tasks
+I1018 09:51:33.348259 12954 firmament_scheduler_service.cc:249] Got 0 scheduling deltas
+I1018 09:51:33.348312 12954 firmament_scheduler_service.cc:251] Got 0 unscheduled tasks
+I1018 09:51:43.349938 12954 firmament_scheduler_service.cc:249] Got 0 scheduling deltas
+I1018 09:51:43.349997 12954 firmament_scheduler_service.cc:251] Got 0 unscheduled tasks
+I1018 09:51:53.351773 12959 firmament_scheduler_service.cc:249] Got 0 scheduling deltas
+I1018 09:51:53.351821 12959 firmament_scheduler_service.cc:251] Got 0 unscheduled tasks
+I1018 09:52:03.353423 12954 firmament_scheduler_service.cc:249] Got 0 scheduling deltas
+I1018 09:52:03.353473 12954 firmament_scheduler_service.cc:251] Got 0 unscheduled tasks
+I1018 09:52:13.354929 12959 firmament_scheduler_service.cc:249] Got 0 scheduling deltas
+I1018 09:52:13.354974 12959 firmament_scheduler_service.cc:251] Got 0 unscheduled tasks
+I1018 09:52:23.356448 12959 firmament_scheduler_service.cc:249] Got 0 scheduling deltas
+I1018 09:52:23.356495 12959 firmament_scheduler_service.cc:251] Got 0 unscheduled tasks
+I1018 09:52:33.358479 12959 firmament_scheduler_service.cc:249] Got 0 scheduling deltas
+I1018 09:52:33.358531 12959 firmament_scheduler_service.cc:251] Got 0 unscheduled tasks
+I1018 09:52:43.457011 13365 solver_dispatcher.cc:182] Writing flow graph debug info into /tmp/firmament-debug/debug_1.dm
+I1018 09:52:43.577414 13365 utils.cc:341] External execution of command: build/third_party/cs2/src/cs2/cs2.exe 
+I1018 09:52:43.805508 13365 firmament_scheduler_service.cc:249] Got 660 scheduling deltas
+I1018 09:52:43.805546 13365 firmament_scheduler_service.cc:251] Got 0 unscheduled tasks
+I1018 09:52:53.809056 13374 firmament_scheduler_service.cc:249] Got 0 scheduling deltas
+I1018 09:52:53.809103 13374 firmament_scheduler_service.cc:251] Got 0 unscheduled tasks
+I1018 09:53:03.811175 13365 firmament_scheduler_service.cc:249] Got 0 scheduling deltas
+I1018 09:53:03.811223 13365 firmament_scheduler_service.cc:251] Got 0 unscheduled tasks
+I1018 09:53:13.812799 13374 firmament_scheduler_service.cc:249] Got 0 scheduling deltas
+I1018 09:53:13.812885 13374 firmament_scheduler_service.cc:251] Got 0 unscheduled tasks
+I1018 09:53:23.814499 13374 firmament_scheduler_service.cc:249] Got 0 scheduling deltas
+I1018 09:53:23.814548 13374 firmament_scheduler_service.cc:251] Got 0 unscheduled tasks
+I1018 09:53:33.816133 13374 firmament_scheduler_service.cc:249] Got 0 scheduling deltas
+I1018 09:53:33.816179 13374 firmament_scheduler_service.cc:251] Got 0 unscheduled tasks
